@@ -1,5 +1,6 @@
 import React from 'react'
-export const runtime = 'edge';
+// export const runtime = 'edge';
+export const runtime='experimental-edge'
 
 const Hello = ({ params }: { params: any }) => {
     return (
